@@ -1,0 +1,124 @@
+/* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f7f7f7;
+	color: #333;
+   
+}
+
+.container {
+	
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+    background-color: #6c2eb9;
+    padding: 30px;
+    margin:0;
+}
+
+h2 {
+    text-align:justify;
+	margin: 30px 0;
+}
+
+.form-group {
+	margin-bottom: 30px;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s ease-in-out;
+	max-width: 600px;
+	width: 50%;
+	
+}
+
+.form-group:hover {
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+	transform: translateY(-3px);
+}
+
+.form-group:focus-within {
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+	transform: translateY(-3px);
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	color: #666;
+}
+
+input[type=text], input[type=date] {
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	background-color: #f0f0f0;
+	color: #333;
+	transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+input[type=text]:focus, input[type=date]:focus {
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+	background-color: #e5e5e5;
+}
+
+input[type=submit] {
+	background-color: #8338ec;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease-in-out;
+}
+
+input[type=submit]:hover {
+	background-color: #6c2eb9;
+}
+
+/* Specific styles for each function */
+
+/* Delete Flight */
+#flight_id {
+	width: 50%;
+}
+
+/* Create Flight */
+#flight_name, #departure, #destination {
+	width: 50%;
+}
+
+#date {
+	width: 50%;
+}
+
+/* Edit Flight */
+#edit_flight_id {
+	width: 50%;
+}
+
+#edit_flight_name, #edit_departure, #edit_destination {
+	width: 50%;
+}
+
+#edit_date {
+	width: 50%;
+}
+
+/* Assign Flight */
+#assign_flight_id, #assign_pilot, #assign_copilot {
+	width: 50%;
+}
+
+/* Assign Crew */
+#assign_cabin_crew {
+	width: 50%;
+}

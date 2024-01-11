@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Page</title>
+    <link rel="stylesheet" type="text/css" href="../css/admin.css">
+	<style>
+	</style>
+</head>
+<body>
+	<h1>Admin Page</h1>
+	<div>
+		<h2>Delete Flight</h2>
+		<form method="POST" action="adminDel.php">
+			<label for="flight_id">Flight ID:</label>
+			<input type="text" id="flight_id" name="flight_id"><br><br>
+			<input type="submit" value="Delete">
+		</form>
+	</div>
+	<div>
+		<h2>Create Flight</h2>
+		<form method="POST" action="adminCF.php">
+			<label for="departure">Departure:</label>
+			<input type="text" id="departure" name="departure"><br><br>
+			<label for="destination">Destination:</label>
+			<input type="text" id="destination" name="destination"><br><br>
+			<label for="date">Departure Date:</label>
+			<input type="date" id="date" name="DepartureDate"><br><br>
+			<label for="date">Return Date:</label>
+			<input type="date" id="date" name="ReturnDate"><br><br>
+			<label for="Gate">Gate:</label>
+			<input type="text" id="Gate" name="Gate"><br><br>
+			<label for="aircraft">Aircraft:</label>
+			<input type="text" id="aircraft" name="aircraft"><br><br>
+			<label for="price">Price:</label>
+			<input type="text" id="price" name="price"><br><br>
+			<input type="submit" value="Create">
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="../css/style.css">
+
+
+<link rel="icon" href="../images/fevicon.png" type="image/gif" />
+
+<title>BookingPage</title>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+ 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Purple Flight Booking</title>
+<style>
+	body {
+		font-family: Arial, sans-serif;
+		background-color: #9370DB;
+		color: #fff;
+	}
+
+	header {
+		text-align: center;
+		padding: 40px;
+	}
+
+	h1 {
+		font-size: 36px;
+	}
+
+	h2 {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+
+	.container {
+		display: flex;
+		justify-content: center;
+	}
+
+	form {
+		background-color: #6A5ACD;
+		padding: 40px;
+		border-radius: 5px;
+		width: 500px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	}
+
+	label {
+		display: block;
+		margin-bottom: 8px;
+	}
+
+	input[type="text"], input[type="date"], select {
+		width: 100%;
+		padding: 8px;
+		border: none;
+		border-radius: 4px;
+		margin-bottom: 20px;
+	}
+
+	button {
+		background-color: #483D8B;
+		color: #fff;
+		padding: 10px 20px;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+	}
+
+	button:hover {
+		background-color: #301934;
+	}
+</style>
+
+</head>
+<body>
+	<div class="header_section">
+		
+		<nav class="snip1143">
+			<ul>
+			  <li><a href="logged.php" data-hover="Home">Home</a></li>
+			  <li><a href="Loyalty.html" data-hover="Loyalty Program">Loyalty Program</a></li>
+			</ul>
+		  </nav>
+	</div>
+</div>
+	<header>
+        <h1 style="color: white;">Book your flight today!</h1>
+    </header>
+		<div class="container">
+			<form action="search_flights.php" method="post">
+					<label for="from">From:</label>
+					<input type="text" id="from" name="from" placeholder="City or airport" required>
+
+					<label for="to">To:</label>
+					<input type="text" id="to" name="to" placeholder="City or airport" required>
+
+					<label for="departure">Departure Date:</label>
+					<input type="date" id="departure" name="departure" required>
+
+					<label for="return">Return Date:</label>
+					<input type="date" id="return" name="return" required>
+
+					<button type="submit" name="search_flights">Search Flights</button>
+			</form>
+    </div>
+</body>
+</html>

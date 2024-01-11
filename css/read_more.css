@@ -1,0 +1,57 @@
+.HH2{
+  
+    color: blueviolet;
+  
+    text-align: center;
+}
+.HH3{
+    color: blueviolet;
+  
+    text-align: center;
+}
+.PP{
+    color: #5a0438;
+}
+.flight{
+    width: 50%;
+   
+    border-radius: 50px;
+    border: 50%;
+    border-color: #5a0438;
+    padding: 5px;
+    border-top: 5px;
+   display: block;
+   margin-left:auto ;
+   margin-right: auto;
+ padding-left:50px;
+}
+div.gallery {
+    margin: 5px;
+   
+  
+    width: 350px;
+  
+    border-top: 5px;
+  
+   margin-left:auto ;
+   margin-right: auto;
+ padding-left:50px;
+ padding-top: 1%;
+
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+    
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }

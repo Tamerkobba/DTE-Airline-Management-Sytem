@@ -1,0 +1,172 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+
+}
+
+header {
+	background-color: #4b0082;
+	color: #fff;
+	padding: 20px;
+}
+ nav {
+    background-color: #4b0082;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #ddd;
+    color: #4b0082;
+  }
+  
+main {
+	width: 80%;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	animation: animateBackground 20s linear infinite;
+}
+
+section {
+	margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #4b0082;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: #4b0082;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+  
+.button:hover {
+    background-color: #fff;
+    color: #4b0082;
+    border: 2px solid #4b0082;
+  }
+  h1, h2, h3, h4, h5, h6 {
+	color: #4b0082;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+}
+
+th, td {
+padding: 8px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
+
+th {
+background-color: #4b0082;
+color: #fff;
+}
+/* Style the dropdown button */
+.table-container {
+	position: relative;
+  }
+  .dropdown:hover .table {
+	display: table;
+	}
+	
+	
+	
+	.dropdown:hover .table {
+	display: table;
+	}
+  .table {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .show-table {
+	display: table;
+  }
+  .dropdown-button{
+	background-color: #4b0082;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+  }
+  .dropdown-button:hover  .table{
+	display: block;
+	cursor: pointer;
+  }
+  @keyframes animateBackground {
+	0% { background-position: 0 0; }
+	50% { background-position: 100% 0; }
+	100% { background-position: 0 0; }
+  }
+  .imag{
+	width: 20%
+	;height: 250px; 
+	margin-left: 40%;
+	border-radius: 35px;
+  }
+  .ana{
+	text-align: center;
+	color: #440072e4;
+	font-size: 300%;
+
+  }
+   
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+img{
+	width: 250px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
